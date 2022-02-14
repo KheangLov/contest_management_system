@@ -1,0 +1,53 @@
+// Fonts
+// @import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+// @import 'variables';
+
+// Bootstrap
+// @import '~bootstrap/scss/bootstrap';
+
+.app {
+
+    .dtr-bs-modal {
+
+        .modal-body {
+            overflow: auto;
+        }
+    }
+
+    .card {
+        overflow: auto;
+    }
+
+}
+
+.sidebar {
+
+    .nav-dropdown-toggle {
+        max-width: 200px;
+    }
+
+    .nav-dropdown {
+
+        &.open {
+
+            .nav-link {
+                max-width: 200px;
+            }
+        }
+    }
+}
+
+.dataTables_wrapper {
+
+    .dataTables_length {
+
+        &#crudTable_length {
+
+            .custom-select {
+                min-width: 6rem;
+            }
+        }
+    }
+}
